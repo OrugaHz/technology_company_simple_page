@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: darkslategray;
+}
+
+/* navigation */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand .logo {
+    width: 50px;
+    margin-right: 50px;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #007eff;
+}
+
+.navbar-search input {
+    padding: 5px;
+    margin-left: 50px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border: none;
+}
+
+/* gallery */
+
+.container-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header-gallery,
+.main-gallery,
+.footer-gallery {
+    width: 80%;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.header-gallery h1 {
+    text-align: center;
+}
+
+.main-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.main-gallery img {
+    flex: 1 0 30%;
+    max-width: 30%;
+    height: auto;
+}
+
+.footer-gallery {
+    text-align: center;
+}
+
+/* footer  */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+}
+
+.footer-title {
+    border-bottom: 2px solid red;
+    margin-bottom: 10px;
+}
+
+.footer-section a,
+.footer-section p {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-section a:hover {
+    color: #007bff;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-socials img {
+    width: 24px;
+    height: 24px;
+}
